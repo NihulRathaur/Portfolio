@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihul Rathaur - Portfolio</title>
+    <link rel="stylesheet" href="./styler.css">
+   
+    <style>
+        * {
+            margin: 0px;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color:rgba(88, 1, 32, 0.744);
+            scroll-behavior: smooth; /* Enable smooth scrolling */
+        }
+
+        .box, .box1 {
+            display: inline-block;
+        }
+
+        header {
+            position: sticky;
+            width: 100%;
+            height: 10vh;
+            font-weight: bold;
+            top: 0;
+            z-index: 100;
+            background-color: rgba(68, 44, 47, 0.992);
+        }
+
+        .header-container {
+            margin-left: 10vw;
+            margin-right: 20vw;
+        }
+
+        a {
+            margin-left: 40px;
+            text-decoration: none;
+            color: rgb(246, 246, 249);
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: rgb(53, 16, 239);
+        }
+
+        .home-introduction {
+            margin: 10vw;
+        }
+
+        .home-introduction > h3 {
+            margin: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(239, 241, 244);
+        }
+
+        .home-introduction > h2 {
+            margin: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(23, 207, 235);
+        }
+
+        .img2 {
+            height: 40vw;
+            width: 40vw;
+        }
+
+        .about {
+            position: relative;
+            height: 50vh;
+            width: 100vw;
+            padding-top: 5vh;
+        }
+        .img2:hover{
+            box-shadow: 5px 5px 20px yellow;
+        }
+
+        .img3 {
+            height: 50vh;
+            width: 30vw;
+            box-shadow: 5px 5px 20px yellow;
+        }
+        .about-description>p{
+            padding: 20px;
+            
+        }
+
+        .about-description {
+            margin-left: 5vw;
+            height: 50vh;
+            width: 60vw;
+            position: absolute;
+        }
+
+        .about-description {
+            margin-left: 5vw;
+            height: 20vh;
+            width: 50vw;
+            position: absolute;
+            overflow: auto;
+        }
+
+        .about-description > h2 {
+            font-size: 30px;
+            font-weight: bold;
+            padding-left:20px;
+        }
+
+        .about-description:hover {
+            box-shadow: 5px 5px 20px yellow;
+        }
+
+        .service {
+            margin-left: 15vw;
+            margin-top: 20px;
+        }
+
+        .service > h2 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .box1 {
+            height: 30vh;
+            width: 20vw;
+            margin-right: 2vw;
+            background-color: rgb(96, 89, 81);
+            padding: 10px;
+            overflow: auto;
+        }
+
+        .box1:hover {
+            background-color: rgba(255, 228, 196, 0.045);
+            border: 5px solid rgb(63, 56, 56);
+            box-shadow: 5px 5px 20px yellow;
+        }
+
+        .box1 h2 {
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 0px;
+        }
+
+        .contact {
+            margin-left: 15vw;
+            margin-top: 5vh;
+        }
+
+        input {
+            height: 10vh;
+            width: 95%;
+            background-color: rgb(46, 45, 45);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        textarea {
+            height: 20vh;
+            width: 95%;
+            background-color: rgb(46, 45, 45);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: rgb(248, 242, 242);
+            width: 20vw;
+            height: 8vh;
+            font-size: 20px;
+            border-radius: 10px;
+            color:black;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container box">
+            <h1 class="name">Nihul Rathaur</h1>
+        </div>
+        <nav class="nav-links box">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#service">SERVICE</a>
+            <a href="#contact">CONTACT US</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <div class="home-introduction box">
+                <h3 class="role">II/UX Designer</h3>
+                <h2 class="greeting">Hi, I'm Nihul</h2>
+                <h2 class="location"> Rathaur from India</h2>
+            </div>
+            <img src="./IMG_20250214_172314761.jpg" class="img2" alt="Profile image of Nihul Rathaur">
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-image box">
+                <img src="./IMG_20250214_172314761.jpg" alt="About image of Nihul Rathaur" class="img3">
+            </div>
+            <div class="about-description box">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta similique ab, adipisci dolorum numquam, delectus accusamus dignissimos impedit ut, maiores itaque. Perspiciatis harum molestiae voluptatibus iusto sunt modi ullam quibusdam ratione, nam accusantium neque enim. Odit necessitatibus explicabo a minus, quibusdam, repellendus illo quas eveniet possimus nobis voluptates, nemo dolor.</p>
+            </div>
+        </section>
+
+        <!--Skill Section-->
+        <br><br><br>
+        <section id="skills" class="skills">
+            <br><br><br>
+            <div class="about-description box">
+            <h2>My skills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta similique ab, adipisci dolorum numquam, delectus accusamus dignissimos impedit ut, maiores itaque. Perspiciatis harum molestiae voluptatibus iusto sunt modi ullam quibusdam ratione, nam accusantium neque enim. Odit necessitatibus explicabo a minus, quibusdam, repellendus illo quas eveniet possimus nobis voluptates, nemo dolor.</p>
+        </div>
+        </section>
+        <br>
+        <!-- Service Section -->
+         <br><br><br><br><br>
+        <section id="service" class="service">
+            <br><br><br>
+            <h2>My Services</h2>
+            <div class="box1 box">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt mollitia sint quia odio totam, libero facere! Non, ducimus enim.</p>
+                <p>Learn more</p>
+            </div>
+            <div class="box1 box">
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt mollitia sint quia odio totam, libero facere! Non, ducimus enim.</p>
+                <p>Learn more</p>
+            </div>
+            <div class="box1 box">
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt mollitia sint quia odio totam, libero facere! Non, ducimus enim.</p>
+                <p>Learn more</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="">
+                <h2>Contact Us</h2>
+                <br>
+                <p>Gmail: nihulrathaur147@gmail.com</p>
+                <p>Phone no: +919005962070</p>
+                <br><br>
+            </div>
+
+            <div class="form">
+                <form>
+                    <input type="text" name="your_name" placeholder="Your Name">
+                    <br><br>
+                    <input type="email" name="your_email" placeholder="Your Email">
+                    <br><br>
+                    <textarea name="your_message" placeholder="Your Message"></textarea>
+                    <br><br>
+                    <button>Submit</button>
+                    <br><br><br><br><br>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
